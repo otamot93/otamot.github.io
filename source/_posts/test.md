@@ -10,7 +10,7 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 ``` bash
 $ hexo new "My New Post"
 ```
-
+![logo](test/11.gif)
 More info: [Writing](https://hexo.io/docs/writing.html)
 
 ### Run server
