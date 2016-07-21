@@ -69,3 +69,10 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+
+##
+avatar: '/uploads/logo.jpg'
+
+##多说评论
+duoshuo_shortname: 'otamot-blog'
