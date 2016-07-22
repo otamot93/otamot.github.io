@@ -76,3 +76,6 @@ avatar: '/uploads/logo.jpg'
 
 ##多说评论
 duoshuo_shortname: 'otamot-blog'
+
+##百度统计
+baidu_analytics: '07da13e23b97eb4e78c0565b2822acfb'
