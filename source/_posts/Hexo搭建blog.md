@@ -15,6 +15,7 @@ categories: hexo
 所以就想用经典网站生成器试试搭建博客
 
 Why Hexo:搜了下最火的应该是jekyllcn，不过基于Ruby！没接触，算了，尝试下基于nodejs的Hexo。
+<!-- more -->
 
 ## 环境
 - nodejs and npm

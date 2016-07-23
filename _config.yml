@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: otamot的个人博客
 subtitle:
-description:
-author: John Doe
+description: otamot的个人博客
+author: hzc
 language: zh-Hans
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://blog.imghub.cn
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
