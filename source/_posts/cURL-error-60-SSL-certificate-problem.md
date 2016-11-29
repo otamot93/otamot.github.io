@@ -44,7 +44,7 @@ windows  wamp环境  laravel  使用easy-wechat
 ![logo](cURL-error-60-SSL-certificate-problem/phpinfo.png)
 
 
-#### 重启Apache
+### 重启Apache
 
 
 
