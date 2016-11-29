@@ -39,7 +39,7 @@ windows  wamp环境  laravel  使用easy-wechat
 
 
 
-####小插曲
+#### 小插曲
 首先要找到正确的php.ini，可能Apache加载的不是你php目录下的php.ini,wamp环境下，默认加载的可能是apache/bin/php.ini，最好打开phpinfo()看下加载的php.ini位置
 ![logo](cURL-error-60-SSL-certificate-problem/phpinfo.png)
 
