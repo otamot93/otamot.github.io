@@ -24,6 +24,7 @@ categories: php
 
 
 ![环境](php代码环境及开发部署流程介绍/environments.png)
+<!-- more -->
 
 ### 本地环境
 
