@@ -98,7 +98,7 @@ $ adb shell am startservice \
 
 
 ## 其他
-在[原文](https://developer.android.com/things/hardware/raspberrypi.html)基础上翻译，并带了点注解![dog](common/dog.gif)
+在[原文](https://developer.android.com/things/hardware/raspberrypi.html)基础上翻译，并带了点注解![dog](树莓派安装android things/dog.gif)
 
 
 
