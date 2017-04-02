@@ -1,6 +1,6 @@
 ---
 
-title: Android Things控制Led灯
+title: Android Things控制LED灯
 
 date: 2017年4月2日15:37:33
 
@@ -8,7 +8,7 @@ tags:
 	- raspberry
 	- 树莓派
     - Antroid things
-    - Led灯
+    - LED灯
 
 categories: Raspberry
 
