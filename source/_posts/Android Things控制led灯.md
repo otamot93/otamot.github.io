@@ -23,7 +23,7 @@ categories: Raspberry
 	- 树莓派3b
 	- 两条杜邦线
 	- 一个面包板
-	- 一个Led灯珠
+	- 一个LED灯珠
 	- 一个300欧姆电阻
 
 2. 软件
@@ -94,7 +94,7 @@ categories: Raspberry
 
 此时，电路连接就完成了
 
-## 编码让Led灯闪烁
+## 编码让LED灯闪烁
 
 1.使用PeripheralManagerService 打开GPIO接口的连接
 2.配置接口为DIRECTION_OUT_INITIALLY_Low
