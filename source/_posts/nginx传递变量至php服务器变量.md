@@ -2,7 +2,7 @@
 
 title: Nginx传递变量至PHP服务器变量
 
-date: 2017年1月25日14:10:14
+date: 2017-1-25 14:10:14
 
 tags:
 	- PHP
