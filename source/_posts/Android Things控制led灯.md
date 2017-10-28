@@ -2,7 +2,7 @@
 
 title: Android Things控制LED灯
 
-date: 2017年4月2日15:37:33
+date: 2017-4-2 15:37:33
 
 tags:
 	- raspberry
