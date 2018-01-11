@@ -25,3 +25,22 @@ com.fasterxml.jackson.databind.JsonMappingException: No suitable constructor fou
     }
 ```
 我猜先new了一个这个Class，但是没有默认的无参的构造方法（已经有其他有参的构造方法了，所以没默认隐式的了），然后再把json中的键值对，通过setKey的方式给到对象。
+
+
+# 添加拦截器后报错 Element mav:exclude-mapping is not allowed here
+
+## 描述
+```
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/> <!-- 拦截范围 -->
+            <mvc:exclude-mapping path="/login/*"/> <!--不被拦截范围（路径）-->
+            <mvc:exclude-mapping path="/register/*"/> <!--不被拦截范围（路径）-->
+            <bean class="com.findcookie.ssm.interceptor.AuthorizationInterceptor"></bean>
+        </mvc:interceptor>
+    </mvc:interceptors>
+```
+其中的mvc:exclude-mapping标签报错
+
+## 解决方案
+修改beans标签的xsi:schemaLocation中的`http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd`为`http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd`，3.2前不支持
