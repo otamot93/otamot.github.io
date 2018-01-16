@@ -16,11 +16,15 @@ tags:
 <!-- more -->
 
 # 想到的解决方案
-## 不跨域
+
+## 不跨域的方向
+
 - 方案1：放到同一个项目中，同一个域名（pass，（前后端各自管理，不好合并了，需要考虑接口地址已经使用，不能改了的情况）
 - 方案2：nginx反响代理api接口，对于前端项目来说看起来不跨域（采用）
 - 方案3：jsonp和其他（限制比较多）
-## options请求的速度更快点
+
+## options请求的速度更快点的方向
+
 - 方案：原来的跨域响应头是应用中加的，能不能放在更前面一点的步骤，比如请求到nginx就返回(快了一丢丢。pass)
 
 # 解决方案（方案2模拟）
@@ -55,7 +59,7 @@ b/apis/login.json存在的意义是验错，没有的的话访问是404，但是
 ## 步骤
 
 ### 修改前端项目中的请求接口地址
-修改前端项目`www.a.com`中的请求接口为`www.a.com/apis/login`，真正的接口地址为`www.b.com/login`，如果请求`www.a.com/apis/login`能获取json数据，则不会进行跨域，也不会发options请求
+修改前端项目`www.a.com`中的请求接口为`www.a.com/apis/login`，真正的接口地址为`www.b.com/login`，如果请求`www.a.com/apis/login`能获取json数据，则不会进行跨域（前端项目和接口在同一域名下），也不会发options请求
 ### 修改前端项目www.a.com的nginx配置
 所有/apis/打头的接口，全部去请求`www.b.com`
 
@@ -91,7 +95,7 @@ proxy_pass 常用在反向代理，比如nginx代理node服务，java服务
     "location":"我是b站点/apis/login"
 }
 ```
-结果是不对的（观察下上文给出的文件夹下，还有个`apis/login.json`），我心理的预期`www.a.com/apis/login.json`是要访问到www.b.com/login.json，应该是b文件夹下的login.json，内容为
+结果是不对的（观察下上文给出的文件夹下，还有个`apis/login.json`），心理的预期`www.a.com/apis/login.json`是要访问到www.b.com/login.json，应该是b文件夹下的login.json，内容为
 `{
     "location": "我是b站点/login"
 }`
