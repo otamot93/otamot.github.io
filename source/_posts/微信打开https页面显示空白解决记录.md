@@ -29,7 +29,7 @@ tags:
 百度关键词`微信 https 打不开`后，查看了几篇类似文章（问答）和对应的浏览后发现，发现是证书没上传正确，阿里云的ca管理原由证书上传，证书文件部分应该上传完整证书链的pem编码，即fullchain.pem（之前上传的是cert.pem）
 
 ## 重新上传证书
-Let’s Encrypt生产的目录结构为
+Let’s Encrypt产生的目录结构为
 ```
 ├── cert.pem -> 秘密
 ├── chain.pem -> 秘密
