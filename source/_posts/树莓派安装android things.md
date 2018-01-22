@@ -2,7 +2,7 @@
 
 title: 树莓派安装Android things
 
-date: 2017年4月1日18:38:35
+date: 2017-04-01 18:38:35
 
 tags:
 	- raspberry
