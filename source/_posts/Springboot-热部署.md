@@ -12,6 +12,7 @@ maven为
             <scope>runtime</scope>
         </dependency>
 ```
+<!-- more  -->
 # 设置IDEA编译器自动编译
 ![IDEA编译器自动编译](http://p2xzgd246.bkt.clouddn.com/20180622234420.png)
 
