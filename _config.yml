@@ -7,7 +7,7 @@ title: 何志超的个人博客
 subtitle:
 description: 何志超的个人博客
 author: hzc
-language: zh-Hans
+language: zh-CN
 timezone:
 
 # URL
@@ -79,3 +79,13 @@ duoshuo_shortname: 'otamot-blog'
 
 ##百度统计
 baidu_analytics: '07da13e23b97eb4e78c0565b2822acfb'
+
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
+  exclude_codeblock: false
+  awl: 2    
+  wpm: 275
+  suffix: "mins."
