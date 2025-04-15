@@ -260,7 +260,8 @@ sudo docker run -it --rm \
     $IMAGE "$@"
     ```
 如果使用/opt/intel/sgxsdk/lib64/,会出现以下报错 `Please use the correct uRTS library from PSW package` 并且
-![](https://hezc-blog.oss-cn-hangzhou.aliyuncs.com/img/20250221102026.png)
+
+![](/构建SGX-SDK版本AECS/uRTS_error.png)
 
 - **/usr/lib/libsgx_urts.so**  
     这是由 Intel SGX 平台软件（PSW）安装后放入系统库路径的 URTS 库，专为硬件模式下的 SGX 应用提供支持。它经过平台级验证，能够正确与 AESM 服务等硬件组件协同工作，确保在真实 SGX 硬件上运行时功能正常。
