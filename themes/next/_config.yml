@@ -411,8 +411,8 @@ bookmark:
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
-  enable: false
-  permalink: https://github.com/yourname
+  enable: true
+  permalink: https://github.com/otamot93
 
 
 # ---------------------------------------------------------------
@@ -780,7 +780,7 @@ google_analytics:
 
 # Baidu Analytics
 # See: https://tongji.baidu.com
-baidu_analytics: # <app_id>
+baidu_analytics: 43ce493f0c3462ed20a49a4d74d19533
 
 # Growingio Analytics
 # See: https://www.growingio.com
